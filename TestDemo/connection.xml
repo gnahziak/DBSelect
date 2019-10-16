@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConnectionString>
+  <!--配置文件要放在主项目下-->
+  <DBSelect name="default">
+    <WritableDB></WritableDB>
+    <ReadDBs>
+      <DB Weight="1">101</DB>
+      <DB Weight="2">102</DB>
+      <DB Weight="3">103</DB>
+      <DB Weight="5">105</DB>
+      <DB Weight="10">110</DB>
+    </ReadDBs>
+  </DBSelect>
+  <DBSelect name="learn">
+    <WritableDB></WritableDB>
+    <ReadDBs>
+      <DB Weight="1">201</DB>
+      <DB Weight="2">202</DB>
+      <DB Weight="3">203</DB>
+      <DB Weight="5">205</DB>
+      <DB Weight="10">210</DB>
+    </ReadDBs>
+  </DBSelect>
+</ConnectionString>
