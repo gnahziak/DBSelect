@@ -34,7 +34,9 @@ struct DBSelectEnum
 }
         
 1.DBSelector.SelectDB("select * from demo", DBSelectEnum.default)；//自动根据SQL字符串判断读写库选择  默认default节，如果选择其他节则必须显式指定
+
 2.DBSelector.SelectDB(SQLRWEnum.Write); //对于一些查询比较需要及时得语句 可以直接显式指定写库
+
 3.DBSelector.SelectDB("", System.Data.CommandType.StoredProcedure)；//存储过程默认写库  如果读库需显式指定
 
 
