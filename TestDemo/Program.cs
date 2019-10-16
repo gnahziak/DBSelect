@@ -1,8 +1,5 @@
-﻿using ExamDBSelect;
+﻿using DBSelect;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
 
 namespace TestDemo
 {
